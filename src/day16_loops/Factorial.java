@@ -6,7 +6,7 @@ public class Factorial {
         //A: 4! = 4*3*2*1
 
 
-        int num = 7;
+        int num = 5;
         int result = 1;
 
         while (num > 1){

@@ -16,7 +16,7 @@ public class PrintNumber {
         System.out.println("----------------");
 
         // print even numbers from 2 to 100
-        while (n <= 100) {
+        while (n <= 10) {
             System.out.println(n);
             n += 2;
         }
