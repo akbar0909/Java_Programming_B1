@@ -1,4 +1,4 @@
-package day_24_office_hours;
+package day24_office_hours;
 
 public class MethodWitOthers {
 
