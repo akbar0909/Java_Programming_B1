@@ -1,4 +1,4 @@
-package day25_VoidMethod;
+package day_24_office_hours;
 
 public class CountNumbers {
     /*
@@ -24,6 +24,7 @@ public class CountNumbers {
         countNums(5);
         countNums(19);
         countNums(7);
+        countNums(20);
     }
 
 }

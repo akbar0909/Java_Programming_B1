@@ -1,4 +1,4 @@
-package day25_VoidMethod;
+package day_24_office_hours;
 
 import java.util.Scanner;
 
