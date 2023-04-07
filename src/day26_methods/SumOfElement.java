@@ -1,6 +1,6 @@
 package day26_methods;
 
-public class SamOfElement {
+public class SumOfElement {
 
     // varargs --- >  variable arguments
     public static void main(String[] args) {
