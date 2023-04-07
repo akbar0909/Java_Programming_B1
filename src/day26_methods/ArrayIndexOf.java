@@ -1,46 +1,6 @@
-package my_util;
+package day26_methods;
 
-import java.util.Arrays;
-
-public class ArrayUtil {
-    /*
-     * This method accept int arr and return int the min number
-     *
-     */
-
-
-    public static int minNumInArr(int[] arr) {
-        int min = 0;
-
-        for (int each : arr) {
-            if (each < min) {
-                min = each;
-            }
-
-        }
-        return min;
-
-    }
-
-    /* This method will accept int arr and int number
-     * it will return if the number exist in the array
-     *
-     *
-     */
-
-    public static boolean containArr(int[] arr, int num) {
-//        boolean result = false;
-        for (int each : arr) {
-            if (num == each) {
-//                return = true;
-                return true;
-            }
-        }
-        return false;
-//        return result;
-    }
-
-
+public class ArrayIndexOf {
     public static void main(String[] args) {
         String str = "loop";
         int index = str.indexOf("l");
