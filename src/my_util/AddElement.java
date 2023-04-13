@@ -6,7 +6,7 @@ public class AddElement {
 
 // create a method that accept int array and an int value
     // Then adds that value at the end of array
-    // Then return that array
+    // Then return that
 
 
     public static void main(String[] args) {
