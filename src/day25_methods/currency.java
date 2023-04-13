@@ -54,5 +54,6 @@ create a method that will accept a currency type(String) and a currency amount (
     public static void main(String[] args) {
         System.out.println("You converted currency: " + currency("Euro", 500));
         System.out.println("You converted currency: " + currency("YEN", 500));
+
     }
 }
