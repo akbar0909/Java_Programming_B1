@@ -1,4 +1,4 @@
-package day_b_30_custom_classes;
+package day30_custom_classes_b;
 
 public class AllPeople {
     public static void main(String[] args) {
