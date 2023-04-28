@@ -1,4 +1,4 @@
-package day_32_custom_classes;
+package day32_custom_classes;
 
 public class Food {
     // name, quantity, unit price, total price

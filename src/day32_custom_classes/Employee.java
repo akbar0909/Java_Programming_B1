@@ -1,4 +1,4 @@
-package day_32_custom_classes;
+package day32_custom_classes;
 
 public class Employee {
     // name, id, job title, salary (instance variables or fields or attributes)
