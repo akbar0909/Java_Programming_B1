@@ -1,7 +1,6 @@
 package day21_arrays;
 
 import java.util.Arrays;
-
 public class SoftExample {
     public static void main(String[] args) {
         int [] nums = {2, 3, 8, 1, 4, 7, -4};
