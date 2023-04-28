@@ -1,7 +1,6 @@
-package day_32_custom_classes;
+package day32_custom_classes;
 
-public class Offer {
-
+public class OfferV2 {
     // location, company, salary, is full time, number of PTO
     String location;
     String company;
@@ -22,21 +21,25 @@ public class Offer {
 
 */
 
-    public Offer (String company, String location){
+    public OfferV2 (String company, String location){
         this.company = company;
         this.location = location;
     }
 
-    public Offer (String company, String location, double salary){
-        this.company = company;
-        this.location = location;
+    public OfferV2 (String company, String location, double salary){
+//        this.company = company;
+//        this.location = location;
+
+        this(company, location);
         this.salary = salary;
     }
 
-    public Offer (String company, String location, double salary, boolean isFullTime, int numOfPTO){
-        this.company = company;
-        this.location = location;
-        this.salary = salary;
+    public OfferV2 (String company, String location, double salary, boolean isFullTime, int numOfPTO){
+//        this.company = company;
+//        this.location = location;
+//        this.salary = salary;
+
+        this (company, location, salary);  // Using this() keyword we call another constructor which instantiate the values on instance variables.
         this.isFullTime = isFullTime;
         this.numOfPTO = numOfPTO;
     }
